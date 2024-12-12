@@ -1,0 +1,18 @@
+server.port: 8989
+server.servlet.context-path: /bank-api
+
+spring.security.user.name: bankapp
+spring.security.user.password: changeit
+
+# datasource properties
+spring.datasource.url: jdbc:h2:file:./data/bankdb
+spring.datasource.driverClassName: org.h2.Driver
+spring.datasource.username: sa
+spring.datasource.password:
+
+
+# Enabling H2 Console
+spring:
+  h2:
+    console:
+      enabled: true
