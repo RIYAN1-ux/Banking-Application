@@ -5,12 +5,15 @@ spring.security.user.name: bankapp
 spring.security.user.password: changeit
 
 # datasource properties
-spring.datasource.url: jdbc:h2:file:./data/bankdb
+# JDBC URL connecting with the H2
+spring.datasource.url: jdbc:h2:file:./data/bankdb 
 spring.datasource.driverClassName: org.h2.Driver
 spring.datasource.username: sa
 spring.datasource.password:
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.database: H2
 
-
+# JPA specofoes behaviour for updating the schema
 # Enabling H2 Console
 spring:
   h2:

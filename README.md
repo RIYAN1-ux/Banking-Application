@@ -87,5 +87,5 @@ http://localhost:8989/bank-api/h2-console/
 
 ## Authors
 
-* **Shyam Bathina**
+* **Riyan**
 
